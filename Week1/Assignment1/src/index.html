@@ -8,9 +8,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div>
+      <h1>Hello world from normal HTML</h1>
+    </div>
+    <div id="vanilla_JS"></div>
     <div id="root">
       <!-- Some error occurred -->
     </div>
+    <script>
+      const rootElement = document.getElementById("vanilla_JS");
+      const headerElement = document.createElement("h1");
+      headerElement.textContent = "This is injected using vanilla js";
+      rootElement.append(headerElement);
+    </script>
 
     <script
       crossorigin
