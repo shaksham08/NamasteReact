@@ -1,0 +1,20 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "Assignment 2",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "shaksham",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
