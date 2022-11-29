@@ -13,3 +13,5 @@ This repo contains my learning at Namaste React Bootcamp
   - Hello world in react using React CDN
 
 - Assignment 1 :- Creating your own hello world using React CDN
+
+- Assignment 2 :- Create a react project using parcel bundler
