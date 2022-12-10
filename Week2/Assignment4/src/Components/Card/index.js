@@ -12,7 +12,7 @@ const Card = ({
         <h3 className="card__text">{name}</h3>
         <h4>Place : {location}</h4>
         <h4>Company/College : {company}</h4>
-        <h4>Experience :{experience}</h4>
+        <h4>Experience : {experience}</h4>
       </span>
     </div>
   );
