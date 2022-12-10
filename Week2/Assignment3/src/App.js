@@ -37,7 +37,17 @@ const NestedHeadingJSX = (
 );
 
 // Basic React Component
-const HeadingComponent = () => <h1 className="title">hello</h1>;
+const HeadingComponent = () =>
+  React.createElement(
+    "h1",
+    {
+      className: "heading",
+    },
+    "this is a simple heading element"
+  );
+
+// Basic React Component with JSX
+const HeadingComponentWithJSX = () => <h1 className="title">hello</h1>;
 
 const value = "This is a value";
 
