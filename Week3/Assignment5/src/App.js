@@ -13,7 +13,7 @@ const App = () => {
     <>
       <Header />
       <SearchBar setAllUserData={setAllUserData} />
-      {(allUserData || !allUserData.length) && (
+      {(!allUserData || !allUserData.length) && (
         <NoData message="No users found" />
       )}
       <div className="main__container">
