@@ -1,0 +1,23 @@
+.search__container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search__input {
+  padding: 8px 12px;
+  border: 1px solid grey;
+  width: 250px;
+  border-radius: 4px;
+}
+
+.search__button {
+  padding: 8px 12px;
+  border: none;
+  border: 1px solid grey;
+  width: 100px;
+  border-radius: 4px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(250, 175, 61);
+}
