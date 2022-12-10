@@ -1,14 +1,16 @@
 import React, { useState } from "react";
-import { teammates } from "../../assets/Team";
+import teammates from "../../Team.json";
 import "./style.css";
 
 const SearchBar = ({ setAllUserData }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault();
-    const filteredList = teammates.filter((teamData) =>
-      teamData.name.toLowerCase().includes(searchTerm.toLowerCase())
-    );
+    const filteredList =
+      teammates &&
+      teammates.filter((teamData) =>
+        teamData.name.toLowerCase().includes(searchTerm.toLowerCase())
+      );
     setAllUserData(filteredList);
   };
 
